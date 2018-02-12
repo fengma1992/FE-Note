@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <title>prefetch-example</title>
+<link rel="preload" as="video" href="http://techslides.com/demos/sample-videos/small.mp4">
+</head>
+<body>
+<button onclick="addVideo()">addVideo</button>
+<script>
+  function addVideo() {
+    const video = document.createElement('video')
+    video.src= 'http://techslides.com/demos/sample-videos/small.mp4'
+    video.controls = true
+    document.body.appendChild(video)
+  }
+</script>
+</body>
+</html>
