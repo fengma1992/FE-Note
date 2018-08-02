@@ -1,8 +1,6 @@
 # FE-Note
 前端笔记
 
-https://github.com/fengma1992/FE-Note/wiki
-
 ## HTML
 #### [HTML meta 小记](https://github.com/fengma1992/FE-Note/wiki/HTML-meta--%E5%B0%8F%E8%AE%B0)
 
